@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100vw;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 30px;
+    background-color: #972b00;
+}
+
+header h1 {
+    text-align: center; /*mettre le titre au centre  */
+    margin-bottom: 10px ;
+    font-size: 70px;    /* taille de police */
+    color:rgb(210, 250, 222);
+}
+
+/* barre de nagivation*/
+div#centre aside{
+    position: fixed;
+    width: 12%;
+    background-color: rgb(241, 247, 253);
+    padding: 10px;     /* marge interieur de 20px */
+    border-radius: 10px 10px 10px 10px;
+    left: 10px;
+}
+nav h3{
+    text-transform: uppercase; /* tous mettre en majuscule  */ 
+    font-size: 25px;
+}
+nav ul{
+    list-style: none; /* pas des point des elemnets des lst*/
+}
+nav ul il{
+    padding: 20 px 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #6d0746;
+}
+
+
+/*zone centrale */
+div#centre main{
+    position: relative;
+    left:12%;  /* par rapport a la barre de navigation */
+
+}
+
+span{
+    display: block; /* pour que ca prennent toute la largeur possible de l'élément */
+    /*border-bottom: 3px solid #6d0746;*/
+    width: 50%;
+    height: 1px;
+    margin: 60px auto;
+}
+.tt{
+    text-align: right;
+    float: left;
+    text-align: left;
+}
+
+section{
+    background-color: #ffffff;
+    padding: 10px 30px;
+    max-width: calc(100vw - 20%);
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+p{
+    padding: 5px 15%;
+}
+/* section accueil*/
+img{
+    width: 50%;
+
+}
+section#accueil img h2{
+    width: 30px 0;
+}
+/* section prestations */
+section#prestations div.service{  /* ou bien .service directement */
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+}
+section#prestations span{
+    clear: both;
+    padding-top: 90px;
+
+}
+section#prestations div img {
+    width: 30%;
+}
+
+section#prestations div h3{
+    font-size: 25px;
+    margin: 20px 0 10px 0;
+
+}
+
+/*footer*/
+footer{
+    color: lightgoldenrodyellow;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+
